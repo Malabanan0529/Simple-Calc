@@ -15,3 +15,8 @@ If you prefer building from the command line, open your terminal, navigate to th
 **Standard Build:**
 ```bash
 gradle assembleDebug
+
+**Offline Build**
+If you have already downloaded the necessary dependencies, run:
+```bash
+gradle assembleDebug --offline
