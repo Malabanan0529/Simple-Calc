@@ -13,10 +13,12 @@ Open the project in your preferred IDE that supports the SDK and Gradle. Allow t
 If you prefer building from the command line, open your terminal, navigate to the root directory of this project, and use one of the following Gradle commands:
 
 **Standard Build:**
-``bash
+```bash
 gradle assembleDebug
+```
 
-**Offline Build**
+**Offline Build:**
 If you have already downloaded the necessary dependencies, run:
 ```bash
 gradle assembleDebug --offline
+```
